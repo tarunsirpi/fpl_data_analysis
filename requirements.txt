@@ -7,3 +7,4 @@ ipykernel
 requests
 datetime
 sagemaker
+-e .

@@ -1,0 +1,4 @@
+[2024-04-23 23:48:38,077] 24 root -INFO Starting data ingestion
+[2024-04-23 23:48:38,081] 28 root -INFO Merged data reading completed
+[2024-04-23 23:48:38,081] 31 root -INFO train and test data split complete
+[2024-04-23 23:48:38,093] 41 root -ERROR Error occured in python script named [d:/data_science/ml_projects/fpl_data_analysis/src/components/data_injestion.py] line number [33] error message ['DataInjestion' object has no attribute 'ingestion_config']

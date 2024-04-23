@@ -1,0 +1,4 @@
+[2024-04-23 23:49:30,763] 24 root -INFO Starting data ingestion
+[2024-04-23 23:49:30,767] 28 root -INFO Merged data reading completed
+[2024-04-23 23:49:30,767] 31 root -INFO train and test data split complete
+[2024-04-23 23:49:30,799] 35 root -INFO data ingestion complete

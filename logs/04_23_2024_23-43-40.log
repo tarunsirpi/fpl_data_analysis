@@ -1,0 +1,7 @@
+[2024-04-23 23:43:41,089] 29 root -INFO reading raw data for merging
+[2024-04-23 23:43:41,089] 36 root -INFO created new dataframe for merging data
+[2024-04-23 23:44:01,204] 47 root -INFO historical data calculated
+[2024-04-23 23:44:01,221] 56 root -INFO merged player data with GW data
+[2024-04-23 23:44:10,663] 64 root -INFO merged fixture data to GW data
+[2024-04-23 23:44:10,747] 72 root -INFO merged data is saved to artifacts
+[2024-04-23 23:44:10,778] 78 root -INFO Null values are dropped and the cleaned data is saved to artifacts as csv file
