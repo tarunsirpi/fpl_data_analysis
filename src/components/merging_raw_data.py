@@ -16,6 +16,8 @@ class DataMergingConfig():
     self.player_gw_data_path = os.path.join("Data-Engineering", "data", "individual_player_data.csv")
     self.player_data_path = os.path.join("Data-Engineering", "data", "player_transformed_data.csv")
     self.fixture_data_path = os.path.join("Data-Engineering", "data", "fixture_transformed_data.csv")
+    self.merged_data_path = os.path.join("artifacts", "merged_data.csv")
+    self.cleaned_data_path = os.path.join("artifacts", "cleaned_data.csv")
 
 class DataMerging():
   def __init__(self):
@@ -68,12 +70,13 @@ class DataMerging():
         if df3.loc[index, 'difficulty'] == -1 :
           df3.loc[index, 'difficulty'] = difficulty_median
 
-      df3.to_csv(os.path.join("artifacts", "merged_data.csv"), index=False)
+      df3.to_csv(self.data_merging_config.merged_data_path, index=False)
+      
       logging.info("merged data is saved to artifacts")
           
-      df4 = df3.copy() 
+      df4 = df3.copy()
       df4.dropna(axis=0, inplace = True)
-      df4.to_csv(os.path.join("artifacts","cleaned_data.csv"), index=False)
+      df4.to_csv(self.data_merging_config.cleaned_data_path, index=False)
 
       logging.info("Null values are dropped and the cleaned data is saved to artifacts as csv file")
 

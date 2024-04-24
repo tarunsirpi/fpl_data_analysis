@@ -1,0 +1,5 @@
+[2024-04-24 23:48:01,946] 45 root -INFO Read train and test data completed
+[2024-04-24 23:48:01,946] 46 root -INFO Shape of train data : (6353, 19)  and shape of test data : (706, 19)
+[2024-04-24 23:48:01,946] 54 root -INFO Shape of train data : (6159, 19)  and shape of test data : (686, 19) after removing outliers
+[2024-04-24 23:48:01,951] 65 root -INFO input and target features of train and test data split
+[2024-04-24 23:48:01,963] 91 root -INFO Shape of input train data : (3540, 16)  and shape of input test data : (686, 16) after transformation

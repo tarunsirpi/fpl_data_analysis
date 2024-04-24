@@ -1,5 +1,0 @@
-[2024-04-23 22:24:52,164] 29 root -INFO reading raw data for merging
-[2024-04-23 22:24:52,164] 36 root -INFO created new dataframe for merging data
-[2024-04-23 22:25:11,921] 47 root -INFO historical data calculated
-[2024-04-23 22:25:11,939] 56 root -INFO merged player data with GW data
-[2024-04-23 22:25:51,103] 64 root -INFO merged fixture data to GW data
