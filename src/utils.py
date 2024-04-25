@@ -54,3 +54,32 @@ def get_difficulty_and_is_home_team(index, data, fixture_data):
     else:
     #   data.loc[index, 'difficulty'] = -1
       return [-1, 0]
+
+
+# function to save object as pickle file
+
+def save_object(file_path, object):
+  try:
+    dir_path = os.path.dirname(file_path)
+    os.makedirs(dir_path, exist_ok= True)
+
+    with open(file_path, 'wb') as file_object:
+      pickle.dump(object, file_object)
+    
+  except Exception as e:
+    logging.error("Exception in save_object utils function")
+    raise CustomException(e, sys)
+   
+
+# function to load object from pickle file
+
+def load_object(file_path):
+  try:
+    with open(file_path, 'rb') as file_object:
+      return pickle.load(file_object)
+      
+  except Exception as e:
+    logging.error("Exception in load_object utils function")
+    raise CustomException(e, sys)
+
+

@@ -13,12 +13,12 @@ from src.components.data_injestion import DataInjestion
 from src.exception import CustomException
 from src.logger import logging
 
-# from src.utils import save_model
+from src.utils import save_object
 
 
 class DataTransformationConfig():
   def __init__(self):
-    self.preprocessor_obj_file = os.path.join("artifacts", "preprossor.pkl")
+    self.preprocessor_obj_file_path = os.path.join("artifacts", "preprossor.pkl")
 
 
 class DataTransformation():
@@ -27,14 +27,28 @@ class DataTransformation():
 
   def get_data_transformation_object(self):
     try:
-      pass
+      transformation_columns = ['gameWeek', 'minutes_played_last5', 'clean_sheets_last5', 'bps_last5', 'player_starts_last5', 'expected_goals_last5', 'expected_assists_last5', 'expected_goal_involvements_last5', 'expected_goals_conceded_last5', 'total_points_last5', 'difficulty', 'is_home_team', 'player_type_1', 'player_type_2', 'player_type_3', 'player_type_4']
+      
+      logging.info('Data transformation pipeline initiated')
+      
+      pipeline = Pipeline(steps = [
+                                    ('imputer', SimpleImputer(strategy='median')),
+                                    ('scaler', StandardScaler())
+                                    ])
+      
+      proprocessor = ColumnTransformer([
+                                        ('data_transformation_pipeline', pipeline, transformation_columns)
+                                      ])
+
+      logging.info("Data transformation pipeline created")
+
+      return proprocessor
+
 
     except Exception as e:
         logging.info("Error in getting the Data Transformation object")
         logging.error(CustomException(e,sys))
         raise CustomException(e,sys)
-
-
 
 
   def initaite_data_transformation(self, train_path, test_path):
@@ -63,7 +77,8 @@ class DataTransformation():
       y_test = test_df['total_points'].copy()
 
       logging.info("input and target features of train and test data split")
-      #######################################################################
+      logging.info("Transforming data")
+
       X_train = X_train.drop(columns=['first_name', 'last_name','player_id', 'fixture_id', 'team_id', ])
       X_test = X_test.drop(columns=['first_name', 'last_name','player_id', 'fixture_id', 'team_id', ])
 
@@ -87,15 +102,29 @@ class DataTransformation():
       X_train = X_train.drop_duplicates()
       X_test = X_test.drop_duplicates()
 
+      preprocessing_object = self.get_data_transformation_object()
 
-      logging.info("Shape of input train data : {}  and shape of input test data : {} after transformation".format(X_train.shape, X_test.shape))
+      X_train_transformed = pd.DataFrame(preprocessing_object.fit_transform(X_train), columns= preprocessing_object.get_feature_names_out())
+      X_test_transformed = pd.DataFrame(preprocessing_object.transform(X_test), columns= preprocessing_object.get_feature_names_out())
 
-      #########################################################################
+      X_train_transformed.to_csv("X_train_4.csv", index = False)
+      X_test_transformed.to_csv("X_test_5.csv", index = False)
 
+      logging.info("Data transformation completed")
+      logging.info("Shape of input train data : {}  and shape of input test data : {} after data transformation".format(X_train_transformed.shape, X_test_transformed.shape))
+
+
+      save_object(file_path=self.data_transformation_config.preprocessor_obj_file_path, object= preprocessing_object)
+      logging.info("Preprocessing object saved as pickle file")
+
+      # picle the preprocessor file and return it along with train, test data
+
+      return (X_train_transformed, X_test_transformed, y_train, y_test, self.data_transformation_config.preprocessor_obj_file_path)
       # print(train_df.tail(), test_df.shape)
       
     except Exception as e:
-      logging.info("Exception occured in the initiate_datatransformation")
+      logging.error("Exception occured in the initiate_data_transformation")
+      logging.error(CustomException(e, sys))
       raise CustomException(e,sys)
     
 
