@@ -1,0 +1,2 @@
+[2024-04-27 23:18:27,738] 49 root -ERROR Error while predicting
+[2024-04-27 23:18:27,738] 50 root -ERROR Error occured in python script named [d:/data_science/ml_projects/fpl_data_analysis/src/components/pipelines/prediction_pipeline.py] line number [43] error message [type numpy.ndarray doesn't define __round__ method]

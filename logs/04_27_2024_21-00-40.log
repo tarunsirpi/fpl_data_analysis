@@ -1,0 +1,2 @@
+[2024-04-27 21:00:44,573] 199 root -ERROR Error occured while creating data for prediction
+[2024-04-27 21:00:44,573] 200 root -ERROR Error occured in python script named [d:/data_science/ml_projects/fpl_data_analysis/src/components/merging_raw_data.py] line number [182] error message [('Lengths must match to compare', (20,), (3,))]

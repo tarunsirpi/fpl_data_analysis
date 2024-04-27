@@ -1,0 +1,2 @@
+[2024-04-27 23:18:40,878] 49 root -ERROR Error while predicting
+[2024-04-27 23:18:40,878] 50 root -ERROR Error occured in python script named [d:/data_science/ml_projects/fpl_data_analysis/src/components/pipelines/prediction_pipeline.py] line number [46] error message [[Errno 13] Permission denied: 'result_predicted.csv']

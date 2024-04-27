@@ -1,3 +1,0 @@
-[2024-04-24 23:19:41,012] 45 root -INFO Read train and test data completed
-[2024-04-24 23:19:41,012] 46 root -INFO Shape of train data : (6353, 19)  and shape of test data : (706, 19)
-[2024-04-24 23:19:41,013] 56 root -INFO input and target features of train and test data split

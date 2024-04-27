@@ -1,5 +1,0 @@
-[2024-04-24 23:34:09,634] 45 root -INFO Read train and test data completed
-[2024-04-24 23:34:09,634] 46 root -INFO Shape of train data : (6353, 19)  and shape of test data : (706, 19)
-[2024-04-24 23:34:09,634] 54 root -INFO Shape of train data : (6159, 19)  and shape of test data : (686, 19) after removing outliers
-[2024-04-24 23:34:09,650] 65 root -INFO input and target features of train and test data split
-[2024-04-24 23:34:09,674] 88 root -INFO Exception occured in the initiate_datatransformation
