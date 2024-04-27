@@ -68,6 +68,26 @@ class DataTransformation():
       logging.info("Shape of train data : {}  and shape of test data : {} after removing outliers".format(train_df.shape, test_df.shape))
 
 
+      # X_train = train_df.copy()
+      # X_train = train_df.drop(columns=['total_points'])
+      # y_train = train_df['total_points'].copy()
+
+      # X_test = test_df.copy()
+      # X_test = test_df.drop(columns=['total_points'])
+      # y_test = test_df['total_points'].copy()
+
+      # logging.info("input and target features of train and test data split")
+
+
+      logging.info("Transforming data")
+
+      train_df = train_df.drop(columns=['first_name', 'last_name','player_id', 'fixture_id', 'team_id', ])
+      test_df = test_df.drop(columns=['first_name', 'last_name','player_id', 'fixture_id', 'team_id', ])
+
+      train_df = train_df.drop_duplicates()
+      test_df = test_df.drop_duplicates()
+
+
       X_train = train_df.copy()
       X_train = train_df.drop(columns=['total_points'])
       y_train = train_df['total_points'].copy()
@@ -77,10 +97,6 @@ class DataTransformation():
       y_test = test_df['total_points'].copy()
 
       logging.info("input and target features of train and test data split")
-      logging.info("Transforming data")
-
-      X_train = X_train.drop(columns=['first_name', 'last_name','player_id', 'fixture_id', 'team_id', ])
-      X_test = X_test.drop(columns=['first_name', 'last_name','player_id', 'fixture_id', 'team_id', ])
 
 
       X_train['bps_last5'] = X_train['bps_last5'] + abs(X_train['bps_last5'].min())
@@ -99,28 +115,26 @@ class DataTransformation():
       X_test = pd.get_dummies(X_test, columns=['player_type' ], dtype = 'int')
       X_test.to_csv("X_train_3.csv", index = False)
 
-      X_train = X_train.drop_duplicates()
-      X_test = X_test.drop_duplicates()
+      # X_train = X_train.drop_duplicates()
+      # X_test = X_test.drop_duplicates()
 
       preprocessing_object = self.get_data_transformation_object()
 
-      X_train_transformed = pd.DataFrame(preprocessing_object.fit_transform(X_train), columns= preprocessing_object.get_feature_names_out())
-      X_test_transformed = pd.DataFrame(preprocessing_object.transform(X_test), columns= preprocessing_object.get_feature_names_out())
+      X_train = pd.DataFrame(preprocessing_object.fit_transform(X_train), columns= preprocessing_object.get_feature_names_out())
+      X_test = pd.DataFrame(preprocessing_object.transform(X_test), columns= preprocessing_object.get_feature_names_out())
 
-      X_train_transformed.to_csv("X_train_4.csv", index = False)
-      X_test_transformed.to_csv("X_test_5.csv", index = False)
+      X_train.to_csv("X_train_transformed.csv", index = False)
+      X_test.to_csv("X_test_transformed.csv", index = False)
 
       logging.info("Data transformation completed")
-      logging.info("Shape of input train data : {}  and shape of input test data : {} after data transformation".format(X_train_transformed.shape, X_test_transformed.shape))
+      logging.info("Shape of input train data : {}  and shape of input test data : {} after data transformation".format(X_train.shape, X_test.shape))
 
 
       save_object(file_path=self.data_transformation_config.preprocessor_obj_file_path, object= preprocessing_object)
       logging.info("Preprocessing object saved as pickle file")
 
-      # picle the preprocessor file and return it along with train, test data
 
-      return (X_train_transformed, X_test_transformed, y_train, y_test, self.data_transformation_config.preprocessor_obj_file_path)
-      # print(train_df.tail(), test_df.shape)
+      return (X_train, X_test, y_train, y_test, self.data_transformation_config.preprocessor_obj_file_path)
       
     except Exception as e:
       logging.error("Exception occured in the initiate_data_transformation")
