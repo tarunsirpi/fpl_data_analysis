@@ -105,22 +105,16 @@ class DataMerging():
 
       team_data = pd.read_csv(self.data_merging_config.team_data_path)
 
+      logging.info("Data for creating prediction data read")
+
       unique_player_id_list = list(player_gw_data['player_id'].unique())
-      print(unique_player_id_list, type(unique_player_id_list), len(unique_player_id_list))
 
       max_gameweek = player_gw_data['gameWeek'].max()
       current_gameweek = max_gameweek + 1
-      print("max gameweek data available for : {}".format(max_gameweek))
+      print("max gameweek data available for : GW {}".format(max_gameweek))
 
       current_gw_fixture_data = fixture_data[fixture_data['gameWeek'] == current_gameweek]
       print(current_gw_fixture_data)
-
-      
-      print(player_data[player_data['player_id'] == 434]['team_id'])
-      print(int(player_data[player_data['player_id'] == 434]['team_id']))
-      print(type(int(player_data[player_data['player_id'] == 434]['team_id'])))
-
-      #################################
 
       prediction_df = pd.DataFrame(columns=["player_id", "fixture_id", "gameWeek"])
 
@@ -145,7 +139,6 @@ class DataMerging():
             
       print(prediction_df)
       print(prediction_df.columns)
-      ######
 
       historical_data_cols = ['minutes_played_last5','clean_sheets_last5', 'bps_last5', 'player_starts_last5', 'expected_goals_last5', 'expected_assists_last5', 'expected_goal_involvements_last5', 'expected_goals_conceded_last5', 'total_points_last5',]
       prediction_df[historical_data_cols] = 0
@@ -153,7 +146,6 @@ class DataMerging():
       for index in prediction_df.index:
         prediction_df.loc[index, historical_data_cols] = get_historical_data(index = index, gw_data = player_gw_data, search_df = prediction_df)
 
-      #########
       prediction_df2 = prediction_df.copy()
       player_copy = player_data[['first_name', 'last_name', 'player_id', 'team_id', 'player_type']].copy()
       print(player_copy.head(2))
@@ -171,7 +163,6 @@ class DataMerging():
         if prediction_df3.loc[index, 'difficulty'] == -1 :
           prediction_df3.loc[index, 'difficulty'] = difficulty_median
 
-      #######
       prediction_df3['team name'] = 0
       prediction_df3['oppenent team name'] = 0
 
@@ -180,9 +171,6 @@ class DataMerging():
         fixture_id = prediction_df3.loc[index, 'fixture_id']
 
         prediction_df3.loc[index, 'team name'] = team_data[team_data['team_id'] == team_id]['team_name'].values[0]
-
-        print(team_id, team_data[team_data['team_id'] == team_id]['team_name'].values[0])
-        print(team_data[team_data['team_id'] == team_id])
 
         selected_fixture = fixture_data[fixture_data['match_id'] == fixture_id]
 
@@ -197,12 +185,14 @@ class DataMerging():
         else:
           prediction_df3.loc[index, 'oppenent team name'] = 'NA'
 
-      #######
       print(prediction_df3.isnull().sum())
 
       prediction_df3.fillna(0, inplace= True)
+
+      logging.info("Prediction data created")
+
       prediction_df3.to_csv(self.data_merging_config.prediction_data_path, index=False)
-      ################################
+
       return self.data_merging_config.prediction_data_path
 
     except Exception as e:
@@ -211,11 +201,8 @@ class DataMerging():
       raise CustomException(e, sys)
 
 if __name__ == "__main__":
-  # DataMerging().merge_data()
+  DataMerging().merge_data()
   merge_obj = DataMerging()
   prediction_data_path = merge_obj.create_prediction_data()
-
-
-
   print(prediction_data_path)
 

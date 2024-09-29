@@ -1,0 +1,2 @@
+[2024-09-28 14:17:57,925] 118 root -ERROR Error while predicting
+[2024-09-28 14:17:57,925] 119 root -ERROR Error occured in python script named [D:\data_science\ml_projects\fpl_data_analysis\src\pipelines\prediction_pipeline.py] line number [77] error message [Can only compare identically-labeled Series objects]

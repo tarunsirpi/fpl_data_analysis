@@ -1,0 +1,2 @@
+[2024-09-29 15:31:53,158] 123 root -ERROR Error while predicting
+[2024-09-29 15:31:53,158] 124 root -ERROR Error occured in python script named [D:\data_science\ml_projects\fpl_data_analysis\src\pipelines\prediction_pipeline.py] line number [103] error message ["['player_type_1', 'player_type_2', 'player_type_4'] not in index"]

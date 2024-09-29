@@ -6,5 +6,8 @@ scikit-learn
 ipykernel
 requests
 datetime
-sagemaker
+fastapi
+uvicorn
+python-multipart
+Jinja2
 -e .

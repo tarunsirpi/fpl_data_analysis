@@ -1,0 +1,733 @@
+player_id,first_name,last_name,team name,oppenent team name,total points predicted
+1,Folarin,Balogun,Arsenal,Burnley,0.579
+2,Cédric,Alves Soares,Arsenal,Burnley,1.441
+3,Mohamed,Elneny,Arsenal,Burnley,0.616
+4,Fábio,Ferreira Vieira,Arsenal,Burnley,1.425
+5,Gabriel,dos Santos Magalhães,Arsenal,Burnley,2.214
+6,Kai,Havertz,Arsenal,Burnley,1.713
+7,Rob,Holding,Crystal Palace,Everton,1.441
+8,Gabriel,Fernando de Jesus,Arsenal,Burnley,1.364
+9,Jorge Luiz,Frello Filho,Arsenal,Burnley,1.422
+10,Jakub,Kiwior,Arsenal,Burnley,0.833
+11,Marcus,Oliveira Alencar,Arsenal,Burnley,0.635
+12,Gabriel,Martinelli Silva,Arsenal,Burnley,2.008
+13,Eddie,Nketiah,Arsenal,Burnley,2.071
+14,Martin,Ødegaard,Arsenal,Burnley,1.726
+15,Thomas,Partey,Arsenal,Burnley,0.799
+16,Nicolas,Pépé,Arsenal,Burnley,0.635
+17,Aaron,Ramsdale,Arsenal,Burnley,0.506
+18,Rúnar Alex,Rúnarsson,Arsenal,Burnley,0.506
+19,Bukayo,Saka,Arsenal,Burnley,2.299
+20,William,Saliba,Arsenal,Burnley,2.341
+21,Albert,Sambi Lokonga,Luton,Man Utd,0.389
+22,Emile,Smith Rowe,Arsenal,Burnley,1.37
+23,Nuno,Varela Tavares,Nott'm Forest,West Ham,0.364
+24,Kieran,Tierney,Arsenal,Burnley,1.441
+25,Takehiro,Tomiyasu,Arsenal,Burnley,1.147
+26,Leandro,Trossard,Arsenal,Burnley,1.197
+27,Auston,Trusty,Sheffield Utd,Brighton,1.147
+28,Matt,Turner,Nott'm Forest,West Ham,1.533
+29,Benjamin,White,Arsenal,Burnley,3.118
+30,Granit,Xhaka,Arsenal,Burnley,0.635
+31,Oleksandr,Zinchenko,Arsenal,Burnley,1.67
+32,Alexandre,Moreno Lopera,Aston Villa,Fulham,1.441
+33,Cameron,Archer,Sheffield Utd,Brighton,1.225
+34,Leon,Bailey,Aston Villa,Fulham,1.067
+35,Emiliano,Buendía Stati,Aston Villa,Fulham,0.635
+36,Matty,Cash,Aston Villa,Fulham,1.546
+37,Calum,Chambers,Aston Villa,Fulham,1.441
+38,Philippe,Coutinho Correia,Aston Villa,Fulham,0.635
+39,Keinan,Davis,Aston Villa,Fulham,0.579
+40,Leander,Dendoncker,Aston Villa,Fulham,0.761
+41,Diego Carlos,Santos Silva,Aston Villa,Fulham,0.973
+42,Lucas,Digne,Aston Villa,Fulham,1.483
+43,Douglas Luiz,Soares de Paulo,Aston Villa,Fulham,3.397
+44,Jhon,Durán,Aston Villa,Fulham,0.644
+45,Kortney,Hause,Aston Villa,Fulham,1.441
+46,Tim,Iroegbunam,Aston Villa,Fulham,0.635
+47,Boubacar,Kamara,Aston Villa,Fulham,1.561
+48,Ezri,Konsa Ngoyo,Aston Villa,Fulham,1.747
+49,Emiliano,Martínez Romero,Aston Villa,Fulham,1.845
+50,John,McGinn,Aston Villa,Fulham,1.775
+51,Tyrone,Mings,Aston Villa,Fulham,1.441
+52,Marvelous,Nakamba,Luton,Man Utd,1.065
+53,Robin,Olsen,Aston Villa,Fulham,0.506
+54,Jaden,Philogene-Bidace,Aston Villa,Fulham,0.635
+55,Jacob,Ramsey,Aston Villa,Fulham,0.772
+56,Morgan,Sanson,Aston Villa,Fulham,0.635
+57,Viljami,Sinisalo,Aston Villa,Fulham,0.506
+58,Youri,Tielemans,Aston Villa,Fulham,0.911
+59,Bertrand,Traoré,Aston Villa,Fulham,0.761
+60,Ollie,Watkins,Aston Villa,Fulham,2.805
+61,Wesley,Moraes Ferreira da Silva,Aston Villa,Fulham,0.579
+62,Jaidon,Anthony,Bournemouth,Newcastle,0.364
+63,Philip,Billing,Bournemouth,Newcastle,1.067
+64,David,Brooks,Bournemouth,Newcastle,0.568
+65,Ryan,Christie,Bournemouth,Newcastle,1.317
+66,Lewis,Cook,Bournemouth,Newcastle,0.543
+67,Siriki,Dembélé,Bournemouth,Newcastle,0.364
+68,Ryan,Fredericks,Bournemouth,Newcastle,0.493
+69,James,Hill,Bournemouth,Newcastle,0.493
+70,Lloyd,Kelly,Bournemouth,Newcastle,1.049
+71,Gavin,Kilkenny,Bournemouth,Newcastle,0.364
+72,Justin,Kluivert,Bournemouth,Newcastle,0.758
+73,Jamal,Lowe,Bournemouth,Newcastle,0.364
+74,Emiliano,Marcondes,Bournemouth,Newcastle,0.364
+75,Chris,Mepham,Bournemouth,Newcastle,0.767
+76,Kieffer,Moore,Bournemouth,Newcastle,1.094
+77,Norberto,Murara Neto,Bournemouth,Newcastle,1.144
+78,Dango,Ouattara,Bournemouth,Newcastle,0.997
+79,Ben,Pearson,Bournemouth,Newcastle,0.364
+80,Darren,Randolph,Bournemouth,Newcastle,0.292
+81,Joe,Rothwell,Bournemouth,Newcastle,0.738
+82,Antoine,Semenyo,Bournemouth,Newcastle,0.756
+83,Marcos,Senesi,Bournemouth,Newcastle,0.33
+84,Adam,Smith,Bournemouth,Newcastle,0.643
+85,Dominic,Solanke,Bournemouth,Newcastle,2.167
+86,Marcus,Tavernier,Bournemouth,Newcastle,1.509
+87,Hamed,Traorè,Bournemouth,Newcastle,0.364
+88,Mark,Travers,Bournemouth,Newcastle,0.292
+89,Illia,Zabarnyi,Bournemouth,Newcastle,1.138
+90,Kristoffer,Ajer,Brentford,Liverpool,1.195
+91,Ellery,Balcombe,Brentford,Liverpool,0.31
+92,Shandon,Baptiste,Brentford,Liverpool,0.389
+93,Mads,Bech Sørensen,Brentford,Liverpool,0.427
+94,Mads,Bidstrup,Brentford,Liverpool,0.389
+95,Sergi,Canós Tenés,Brentford,Liverpool,0.389
+96,Nathan,Collins,Brentford,Liverpool,1.15
+97,Matthew,Cox,Brentford,Liverpool,0.31
+98,Mikkel,Damsgaard,Brentford,Liverpool,0.389
+99,Josh,Dasilva,Brentford,Liverpool,0.389
+100,Halil,Dervişoğlu,Brentford,Liverpool,0.28
+101,Mark,Flekken,Brentford,Liverpool,1.107
+102,Charlie,Goode,Brentford,Liverpool,0.427
+103,Rico,Henry,Brentford,Liverpool,0.427
+104,Aaron,Hickey,Brentford,Liverpool,0.73
+105,Vitaly,Janelt,Brentford,Liverpool,1.643
+106,Mathias,Jensen,Brentford,Liverpool,1.748
+107,Keane,Lewis-Potter,Brentford,Liverpool,0.428
+108,Bryan,Mbeumo,Brentford,Liverpool,2.449
+109,Ben,Mee,Brentford,Liverpool,0.395
+110,Christian,Nørgaard,Brentford,Liverpool,1.809
+111,Frank,Onyeka,Brentford,Liverpool,1.374
+112,Ethan,Pinnock,Brentford,Liverpool,0.991
+113,David,Raya Martin,Arsenal,Burnley,2.208
+114,Mads,Roerslev Rasmussen,Brentford,Liverpool,1.357
+115,Kevin,Schade,Brentford,Liverpool,0.389
+116,Thomas,Strakosha,Brentford,Liverpool,0.547
+117,Ivan,Toney,Brentford,Liverpool,0.28
+118,Ryan,Trevitt,Brentford,Liverpool,0.389
+119,Yoane,Wissa,Brentford,Liverpool,2.001
+120,Yegor,Yarmolyuk,Brentford,Liverpool,1.065
+121,Mathias,Jorgensen,Brentford,Liverpool,0.427
+122,Simon,Adingra,Brighton,Sheffield Utd,1.805
+123,Steven,Alzate,Brighton,Sheffield Utd,0.635
+124,Yasin,Ayari,Brighton,Sheffield Utd,0.635
+125,Facundo,Buonanotte,Brighton,Sheffield Utd,0.898
+126,Moisés,Caicedo Corozo,Chelsea,Man City,1.309
+127,Aaron,Connolly,Brighton,Sheffield Utd,0.579
+128,Mahmoud,Dahoud,Brighton,Sheffield Utd,0.904
+129,Lewis,Dunk,Brighton,Sheffield Utd,2.099
+130,Julio,Enciso,Brighton,Sheffield Utd,0.635
+131,Pervis,Estupiñán,Brighton,Sheffield Utd,1.133
+132,Evan,Ferguson,Brighton,Sheffield Utd,1.873
+133,Billy,Gilmour,Brighton,Sheffield Utd,1.529
+134,Pascal,Groß,Brighton,Sheffield Utd,1.632
+135,João Pedro,Junqueira de Jesus,Brighton,Sheffield Utd,2.615
+136,Michał,Karbownik,Brighton,Sheffield Utd,1.441
+137,Kacper,Kozłowski,Brighton,Sheffield Utd,0.635
+138,Adam,Lallana,Brighton,Sheffield Utd,0.928
+139,Tariq,Lamptey,Brighton,Sheffield Utd,1.182
+140,Solly,March,Brighton,Sheffield Utd,1.137
+141,Tom,McGill,Brighton,Sheffield Utd,0.506
+142,James,Milner,Brighton,Sheffield Utd,0.82
+143,Kaoru,Mitoma,Brighton,Sheffield Utd,2.288
+144,Jakub,Moder,Brighton,Sheffield Utd,0.635
+145,Robert,Sánchez,Chelsea,Man City,1.646
+146,Jeremy,Sarmiento Morante,Brighton,Sheffield Utd,0.635
+147,Kjell,Scherpen,Brighton,Sheffield Utd,0.506
+148,Jason,Steele,Brighton,Sheffield Utd,1.389
+149,Deniz,Undav,Brighton,Sheffield Utd,0.579
+150,Jan Paul,van Hecke,Brighton,Sheffield Utd,0.535
+151,Joël,Veltman,Brighton,Sheffield Utd,1.337
+152,Bart,Verbruggen,Brighton,Sheffield Utd,1.175
+153,Adam,Webster,Brighton,Sheffield Utd,1.046
+154,Danny,Welbeck,Brighton,Sheffield Utd,1.06
+155,Andi,Zeqiri,Brighton,Sheffield Utd,0.579
+156,Enock,Agyei,Burnley,Arsenal,0.389
+157,Ameen,Al-Dakhil,Burnley,Arsenal,0.859
+158,Samuel,Bastien,Burnley,Arsenal,0.389
+159,Manuel Benson,Hedilazio,Burnley,Arsenal,0.389
+160,Jordan,Beyer,Burnley,Arsenal,0.901
+161,Josh,Brownhill,Burnley,Arsenal,1.09
+162,Darko,Churlinov,Burnley,Arsenal,0.389
+163,Jack,Cork,Burnley,Arsenal,0.389
+164,Dara,Costelloe,Burnley,Arsenal,0.389
+165,Josh,Cullen,Burnley,Arsenal,0.933
+166,CJ,Egan-Riley,Burnley,Arsenal,0.427
+167,Hjalmar,Ekdal,Burnley,Arsenal,0.427
+168,Lyle,Foster,Burnley,Arsenal,1.184
+169,Denis,Franchi,Burnley,Arsenal,0.31
+170,Jóhann Berg,Gudmundsson,Burnley,Arsenal,1.226
+171,Luke,McNally,Burnley,Arsenal,0.427
+172,Arijanet,Muric,Burnley,Arsenal,0.31
+173,Dara,O'Shea,Burnley,Arsenal,0.719
+174,Michael,Obafemi,Burnley,Arsenal,0.28
+175,Bailey,Peacock-Farrell,Burnley,Arsenal,0.31
+176,Connor,Roberts,Burnley,Arsenal,0.742
+177,Jay,Rodriguez,Burnley,Arsenal,0.904
+178,Charlie,Taylor,Burnley,Arsenal,1.195
+179,Bobby,Thomas,Burnley,Arsenal,0.427
+180,Scott,Twine,Burnley,Arsenal,0.389
+181,Lawrence,Vigouroux,Burnley,Arsenal,0.31
+182,Victor,da Silva,Burnley,Arsenal,0.519
+183,Wout,Weghorst,Burnley,Arsenal,0.28
+184,Anass,Zaroury,Burnley,Arsenal,0.488
+185,Ethan,Ampadu,Chelsea,Man City,0.441
+186,Andrey,Nascimento dos Santos,Nott'm Forest,West Ham,0.418
+187,Kepa,Arrizabalaga,Chelsea,Man City,0.283
+188,Pierre-Emerick,Aubameyang,Chelsea,Man City,0.278
+189,César,Azpilicueta,Chelsea,Man City,0.441
+190,Abdul Rahman,Baba,Chelsea,Man City,0.441
+191,Benoît,Badiashile,Chelsea,Man City,0.441
+192,Marcus,Bettinelli,Chelsea,Man City,0.283
+193,Armando,Broja,Chelsea,Man City,0.753
+194,Trevoh,Chalobah,Chelsea,Man City,0.441
+195,Ben,Chilwell,Chelsea,Man City,0.441
+196,Carney,Chukwuemeka,Chelsea,Man City,0.335
+197,Levi,Colwill,Chelsea,Man City,1.338
+198,Marc,Cucurella Saseta,Chelsea,Man City,1.103
+199,Enzo,Fernández,Chelsea,Man City,1.119
+200,David Datro,Fofana,Chelsea,Man City,0.278
+201,Wesley,Fofana,Chelsea,Man City,0.441
+202,Conor,Gallagher,Chelsea,Man City,1.338
+203,Malo,Gusto,Chelsea,Man City,0.454
+204,Lewis,Hall,Newcastle,Bournemouth,1.285
+205,Callum,Hudson-Odoi,Nott'm Forest,West Ham,0.683
+206,Reece,James,Chelsea,Man City,1.007
+207,Romelu,Lukaku Bolingoli,Chelsea,Man City,0.278
+208,Noni,Madueke,Chelsea,Man City,0.633
+209,Mason,Mount,Man Utd,Luton,1.757
+210,Mykhailo,Mudryk,Chelsea,Man City,1.336
+211,Nicolas,Jackson,Chelsea,Man City,0.865
+212,Christopher,Nkunku,Chelsea,Man City,0.278
+213,Christian,Pulisic,Chelsea,Man City,0.335
+214,Malang,Sarr,Chelsea,Man City,0.441
+215,Gabriel,Słonina,Chelsea,Man City,0.283
+216,Raheem,Sterling,Chelsea,Man City,1.433
+217,Thiago,Emiliano da Silva,Chelsea,Man City,1.201
+218,Hakim,Ziyech,Chelsea,Man City,0.335
+219,Naouirou,Ahamada,Crystal Palace,Everton,1.131
+220,Joachim,Andersen,Crystal Palace,Everton,3.507
+221,Jordan,Ayew,Crystal Palace,Everton,2.125
+222,Nathaniel,Clyne,Crystal Palace,Everton,0.617
+223,Cheick,Doucouré,Crystal Palace,Everton,1.511
+224,Malcolm,Ebiowei,Crystal Palace,Everton,0.635
+225,Odsonne,Edouard,Crystal Palace,Everton,1.949
+226,Eberechi,Eze,Crystal Palace,Everton,0.952
+227,Vicente,Guaita,Crystal Palace,Everton,0.506
+228,Marc,Guéhi,Crystal Palace,Everton,2.573
+229,Will,Hughes,Crystal Palace,Everton,1.752
+230,Sam,Johnstone,Crystal Palace,Everton,3.152
+231,Jefferson,Lerma Solís,Crystal Palace,Everton,1.324
+232,Jean-Philippe,Mateta,Crystal Palace,Everton,1.806
+233,Remi,Matthews,Crystal Palace,Everton,0.506
+234,Tyrick,Mitchell,Crystal Palace,Everton,2.621
+235,Jake,O'Brien,Crystal Palace,Everton,1.441
+236,Michael,Olise,Crystal Palace,Everton,0.635
+237,Luke,Plange,Crystal Palace,Everton,0.579
+238,Chris,Richards,Crystal Palace,Everton,1.307
+239,Jairo,Riedewald,Crystal Palace,Everton,1.058
+240,Jeffrey,Schlupp,Crystal Palace,Everton,1.441
+241,James,Tomkins,Crystal Palace,Everton,1.441
+242,Joel,Ward,Crystal Palace,Everton,1.809
+243,Joe,Whitworth,Crystal Palace,Everton,0.506
+244,André,Tavares Gomes,Everton,Crystal Palace,0.603
+245,Jarrad,Branthwaite,Everton,Crystal Palace,1.47
+246,Dominic,Calvert-Lewin,Everton,Crystal Palace,2.43
+247,Seamus,Coleman,Everton,Crystal Palace,1.285
+248,Dele,Alli,Everton,Crystal Palace,0.603
+249,Abdoulaye,Doucouré,Everton,Crystal Palace,2.253
+250,James,Garner,Everton,Crystal Palace,2.108
+251,Jean-Philippe,Gbamin,Everton,Crystal Palace,0.603
+252,Ben,Godfrey,Everton,Crystal Palace,1.285
+253,Demarai,Gray,Everton,Crystal Palace,0.603
+254,Idrissa,Gueye,Everton,Crystal Palace,1.172
+255,Mason,Holgate,Everton,Crystal Palace,1.285
+256,Alex,Iwobi,Fulham,Aston Villa,1.119
+257,Michael,Keane,Everton,Crystal Palace,1.198
+258,Neal,Maupay,Brentford,Liverpool,1.527
+259,Dwight,McNeil,Everton,Crystal Palace,2.128
+260,Vitalii,Mykolenko,Everton,Crystal Palace,2.012
+261,Amadou,Onana,Everton,Crystal Palace,1.651
+262,Nathan,Patterson,Everton,Crystal Palace,0.794
+263,Jordan,Pickford,Everton,Crystal Palace,1.853
+264,Ellis,Simms,Everton,Crystal Palace,0.488
+265,James,Tarkowski,Everton,Crystal Palace,1.685
+266,João,Neves Virgínia,Everton,Crystal Palace,0.445
+267,Andreas,Hoelgebaum Pereira,Fulham,Aston Villa,1.376
+268,Tom,Cairney,Fulham,Aston Villa,1.215
+269,Ivan,Neves Abreu Cavaleiro,Fulham,Aston Villa,0.372
+270,Bobby,De Cordova-Reid,Fulham,Aston Villa,0.902
+271,Issa,Diop,Fulham,Aston Villa,0.446
+272,Tyrese,Francois,Fulham,Aston Villa,0.372
+273,Anthony,Knockaert,Fulham,Aston Villa,0.372
+274,Terence,Kongolo,Fulham,Aston Villa,0.364
+275,Bernd,Leno,Fulham,Aston Villa,1.596
+276,Saša,Lukić,Fulham,Aston Villa,0.944
+277,Kevin,Mbabu,Fulham,Aston Villa,0.364
+278,Aleksandar,Mitrović,Fulham,Aston Villa,0.282
+279,Rodrigo,Muniz Carvalho,Fulham,Aston Villa,0.952
+280,João,Palhinha Gonçalves,Fulham,Aston Villa,1.078
+281,Tim,Ream,Fulham,Aston Villa,1.337
+282,Harrison,Reed,Fulham,Aston Villa,0.727
+283,Antonee,Robinson,Fulham,Aston Villa,1.205
+284,Marek,Rodák,Fulham,Aston Villa,0.263
+285,Kenny,Tete,Fulham,Aston Villa,0.364
+286,Tosin,Adarabioyo,Fulham,Aston Villa,0.364
+287,Carlos Vinícius,Alves Morais,Fulham,Aston Villa,0.987
+288,Harry,Wilson,Fulham,Aston Villa,1.387
+289,Adrián,San Miguel del Castillo,Liverpool,Brentford,0.326
+290,Trent,Alexander-Arnold,Liverpool,Brentford,1.372
+291,Alisson,Ramses Becker,Liverpool,Brentford,2.206
+292,Stefan,Bajcetic,Liverpool,Brentford,0.405
+293,Darwin,Núñez Ribeiro,Liverpool,Brentford,1.377
+294,Diogo,Teixeira da Silva,Liverpool,Brentford,1.426
+295,Harvey,Elliott,Liverpool,Brentford,0.645
+296,Fabio Henrique,Tavares,Liverpool,Brentford,0.405
+297,Cody,Gakpo,Liverpool,Brentford,0.753
+298,Joe,Gomez,Liverpool,Brentford,0.456
+299,Jordan,Henderson,Liverpool,Brentford,0.405
+300,Curtis,Jones,Liverpool,Brentford,1.159
+301,Caoimhin,Kelleher,Liverpool,Brentford,0.326
+302,Ibrahima,Konaté,Liverpool,Brentford,1.126
+303,Luis,Díaz,Liverpool,Brentford,1.453
+304,Alexis,Mac Allister,Liverpool,Brentford,1.239
+305,Joel,Matip,Liverpool,Brentford,0.534
+306,Nathaniel,Phillips,Liverpool,Brentford,0.536
+307,Andrew,Robertson,Liverpool,Brentford,0.725
+308,Mohamed,Salah,Liverpool,Brentford,2.643
+309,Dominik,Szoboszlai,Liverpool,Brentford,1.924
+310,Thiago,Alcántara do Nascimento,Liverpool,Brentford,0.405
+311,Konstantinos,Tsimikas,Liverpool,Brentford,0.948
+312,Sepp,van den Berg,Liverpool,Brentford,0.536
+313,Virgil,van Dijk,Liverpool,Brentford,1.604
+314,Elijah,Adebayo,Luton,Man Utd,1.07
+315,Mads Juel,Andersen,Luton,Man Utd,0.614
+316,Amari'i,Bell,Luton,Man Utd,0.739
+317,Luke,Berry,Luton,Man Utd,0.464
+318,Reece,Burke,Luton,Man Utd,0.708
+319,Allan,Campbell,Luton,Man Utd,0.389
+320,Jordan,Clark,Luton,Man Utd,0.389
+321,Alfie,Doughty,Luton,Man Utd,1.249
+322,Luke,Freeman,Luton,Man Utd,0.389
+323,Matt,Macey,Luton,Man Utd,0.31
+324,John,McAtee,Luton,Man Utd,0.28
+325,Carlos,Mendes Gomes,Luton,Man Utd,0.389
+326,Carlton,Morris,Luton,Man Utd,1.576
+327,Admiral,Muskwe,Luton,Man Utd,0.28
+328,Chiedozie,Ogbene,Luton,Man Utd,1.795
+329,Fred,Onyedinma,Luton,Man Utd,0.389
+330,Gabriel,Osho,Luton,Man Utd,0.717
+331,Aribim,Pepple,Luton,Man Utd,0.28
+332,Dion,Pereira,Luton,Man Utd,0.389
+333,Dan,Potts,Luton,Man Utd,0.427
+334,Glen,Rea,Luton,Man Utd,0.389
+335,James,Shea,Luton,Man Utd,0.31
+336,Joe,Taylor,Luton,Man Utd,0.28
+337,Elliot,Thorpe,Luton,Man Utd,0.389
+338,Jack,Walton,Luton,Man Utd,0.31
+339,Louie,Watson,Luton,Man Utd,0.389
+340,Cauley,Woodrow,Luton,Man Utd,0.836
+341,Manuel,Akanji,Man City,Chelsea,1.124
+342,Nathan,Aké,Man City,Chelsea,1.064
+343,Julián,Álvarez,Man City,Chelsea,1.776
+344,Bernardo,Veiga de Carvalho e Silva,Man City,Chelsea,1.35
+345,Oscar,Bobb,Man City,Chelsea,1.26
+346,João,Cancelo,Man City,Chelsea,0.364
+347,Scott,Carson,Man City,Chelsea,0.263
+348,Shea,Charles,Man City,Chelsea,0.372
+349,Kevin,De Bruyne,Man City,Chelsea,0.372
+350,Rúben,Gato Alves Dias,Man City,Chelsea,1.15
+351,Tommy,Doyle,Wolves,Spurs,0.731
+352,Ederson,Santana de Moraes,Man City,Chelsea,1.686
+353,Phil,Foden,Man City,Chelsea,2.422
+354,Jack,Grealish,Man City,Chelsea,0.945
+355,Erling,Haaland,Man City,Chelsea,2.437
+356,Mateo,Kovačić,Man City,Chelsea,1.176
+357,Aymeric,Laporte,Man City,Chelsea,0.364
+358,Rico,Lewis,Man City,Chelsea,0.368
+359,Riyad,Mahrez,Man City,Chelsea,0.372
+360,James,McAtee,Sheffield Utd,Brighton,1.232
+361,Stefan,Ortega Moreno,Man City,Chelsea,0.456
+362,Cole,Palmer,Chelsea,Man City,2.301
+363,Máximo,Perrone,Man City,Chelsea,0.372
+364,Kalvin,Phillips,Man City,Chelsea,0.581
+365,Rodrigo,Hernandez,Man City,Chelsea,1.109
+366,Sergio,Gómez,Man City,Chelsea,0.364
+367,Zack,Steffen,Man City,Chelsea,0.263
+368,John,Stones,Man City,Chelsea,1.351
+369,Kyle,Walker,Man City,Chelsea,1.796
+370,Alex,Telles,Man Utd,Luton,1.441
+371,Amad,Diallo,Man Utd,Luton,0.635
+372,Antony Matheus,dos Santos,Man Utd,Luton,1.255
+373,Bruno,Borges Fernandes,Man Utd,Luton,2.126
+374,Brandon,Williams,Man Utd,Luton,1.441
+375,Eric,Bailly,Man Utd,Luton,1.441
+376,Carlos Henrique,Casimiro,Man Utd,Luton,1.35
+377,Diogo,Dalot Teixeira,Man Utd,Luton,2.034
+378,Anthony,Elanga,Nott'm Forest,West Ham,1.129
+379,Christian,Eriksen,Man Utd,Luton,1.514
+380,Álvaro,Fernández Carreras,Man Utd,Luton,1.441
+381,Frederico,Rodrigues de Paula Santos,Man Utd,Luton,0.635
+382,Alejandro,Garnacho,Man Utd,Luton,1.293
+383,Hannibal,Mejbri,Man Utd,Luton,0.635
+384,Tom,Heaton,Man Utd,Luton,0.506
+385,Dean,Henderson,Crystal Palace,Everton,0.506
+386,Victor,Lindelöf,Man Utd,Luton,1.295
+387,Harry,Maguire,Man Utd,Luton,1.673
+388,Kobbie,Mainoo,Man Utd,Luton,0.635
+389,Tyrell,Malacia,Man Utd,Luton,1.441
+390,Anthony,Martial,Man Utd,Luton,1.377
+391,Lisandro,Martínez,Man Utd,Luton,1.441
+392,Scott,McTominay,Man Utd,Luton,2.216
+393,Teden,Mengi,Luton,Man Utd,0.918
+394,Facundo,Pellistri Rebollo,Man Utd,Luton,0.856
+395,Raphaël,Varane,Man Utd,Luton,0.706
+396,Marcus,Rashford,Man Utd,Luton,2.199
+397,Jadon,Sancho,Man Utd,Luton,0.635
+398,Luke,Shaw,Man Utd,Luton,1.441
+399,Shola,Shoretire,Man Utd,Luton,0.579
+400,Donny,van de Beek,Man Utd,Luton,0.616
+401,Aaron,Wan-Bissaka,Man Utd,Luton,0.465
+402,Miguel,Almirón Rejala,Newcastle,Bournemouth,1.442
+403,Elliot,Anderson,Newcastle,Bournemouth,1.447
+404,Harrison,Ashby,Newcastle,Bournemouth,1.285
+405,Sven,Botman,Newcastle,Bournemouth,1.285
+406,Bruno,Guimarães Rodriguez Moura,Newcastle,Bournemouth,1.975
+407,Dan,Burn,Newcastle,Bournemouth,1.755
+408,Karl,Darlow,Newcastle,Bournemouth,0.445
+409,Martin,Dubravka,Newcastle,Bournemouth,0.445
+410,Ryan,Fraser,Newcastle,Bournemouth,0.603
+411,Mark,Gillespie,Newcastle,Bournemouth,0.445
+412,Anthony,Gordon,Newcastle,Bournemouth,1.96
+413,Isaac,Hayden,Newcastle,Bournemouth,0.603
+414,Jeff,Hendrick,Newcastle,Bournemouth,0.603
+415,Alexander,Isak,Newcastle,Bournemouth,1.435
+416,Joelinton Cássio,Apolinário de Lira,Newcastle,Bournemouth,1.328
+417,Emil,Krafth,Newcastle,Bournemouth,1.285
+418,Garang,Kuol,Newcastle,Bournemouth,0.603
+419,Jamaal,Lascelles,Newcastle,Bournemouth,2.137
+420,Jamal,Lewis,Newcastle,Bournemouth,1.285
+421,Sean,Longstaff,Newcastle,Bournemouth,2.163
+422,Javier,Manquillo Gaitán,Newcastle,Bournemouth,1.285
+423,Jacob,Murphy,Newcastle,Bournemouth,1.192
+424,Nick,Pope,Newcastle,Bournemouth,2.248
+425,Matt,Ritchie,Newcastle,Bournemouth,0.611
+426,Allan,Saint-Maximin,Newcastle,Bournemouth,0.603
+427,Fabian,Schär,Newcastle,Bournemouth,2.994
+428,Matt,Targett,Newcastle,Bournemouth,1.16
+429,Sandro,Tonali,Newcastle,Bournemouth,1.064
+430,Kieran,Trippier,Newcastle,Bournemouth,2.328
+431,Kell,Watts,Newcastle,Bournemouth,1.285
+432,Joe,Willock,Newcastle,Bournemouth,1.416
+433,Callum,Wilson,Newcastle,Bournemouth,1.704
+434,Brandon,Aguilera Zamora,Nott'm Forest,West Ham,0.372
+435,Harry,Arter,Nott'm Forest,West Ham,0.372
+436,Serge,Aurier,Nott'm Forest,West Ham,1.082
+437,Taiwo,Awoniyi,Nott'm Forest,West Ham,0.746
+438,Giulian,Biancone,Nott'm Forest,West Ham,0.364
+439,Willy,Boly,Nott'm Forest,West Ham,1.08
+440,Josh,Bowler,Nott'm Forest,West Ham,0.372
+441,Steve,Cook,Nott'm Forest,West Ham,0.364
+442,Danilo,dos Santos de Oliveira,Nott'm Forest,West Ham,0.372
+443,Emmanuel,Dennis,Nott'm Forest,West Ham,0.282
+444,Mohamed,Dräger,Nott'm Forest,West Ham,0.364
+445,Felipe Augusto,de Almeida Monteiro,Nott'm Forest,West Ham,0.364
+446,Remo,Freuler,Nott'm Forest,West Ham,0.372
+447,Morgan,Gibbs-White,Nott'm Forest,West Ham,1.123
+448,Wayne,Hennessey,Nott'm Forest,West Ham,0.263
+449,Ethan,Horvath,Nott'm Forest,West Ham,0.263
+450,Brennan,Johnson,Spurs,Wolves,1.723
+451,Cheikhou,Kouyaté,Nott'm Forest,West Ham,0.806
+452,Richie,Laryea,Nott'm Forest,West Ham,0.364
+453,Orel,Mangala,Nott'm Forest,West Ham,1.017
+454,Loïc,Mbe Soh,Nott'm Forest,West Ham,0.364
+455,Scott,McKenna,Nott'm Forest,West Ham,0.364
+456,Alex,Mighten,Nott'm Forest,West Ham,0.372
+457,Moussa,Niakhaté,Nott'm Forest,West Ham,0.753
+458,Lewis,O'Brien,Nott'm Forest,West Ham,0.372
+459,Braian,Ojeda Rodríguez,Nott'm Forest,West Ham,0.372
+460,Jonathan,Panzo,Nott'm Forest,West Ham,0.364
+461,Omar,Richards,Nott'm Forest,West Ham,0.364
+462,Gustavo Henrique,Furtado Scarpa,Nott'm Forest,West Ham,0.372
+463,Jonjo,Shelvey,Nott'm Forest,West Ham,0.372
+464,Sam,Surridge,Nott'm Forest,West Ham,0.282
+465,Harry,Toffolo,Nott'm Forest,West Ham,1.035
+466,Hwang,Ui-jo,Nott'm Forest,West Ham,0.282
+467,Neco,Williams,Nott'm Forest,West Ham,0.623
+468,Chris,Wood,Nott'm Forest,West Ham,1.549
+469,Joe,Worrall,Nott'm Forest,West Ham,0.612
+470,Ryan,Yates,Nott'm Forest,West Ham,0.622
+471,Anel,Ahmedhodžić,Sheffield Utd,Brighton,0.79
+472,Jordan,Amissah,Sheffield Utd,Brighton,0.263
+473,George,Baldock,Sheffield Utd,Brighton,0.692
+474,Chris,Basham,Sheffield Utd,Brighton,0.727
+475,Sander,Berge,Burnley,Arsenal,1.148
+476,Jayden,Bogle,Sheffield Utd,Brighton,1.138
+477,Rhian,Brewster,Sheffield Utd,Brighton,0.619
+478,Ismaila,Coulibaly,Sheffield Utd,Brighton,0.372
+479,Adam,Davies,Sheffield Utd,Brighton,0.263
+480,John,Egan,Sheffield Utd,Brighton,0.717
+481,John,Fleck,Sheffield Utd,Brighton,0.942
+482,Wes,Foderingham,Sheffield Utd,Brighton,1.215
+483,Daniel,Jebbison,Sheffield Utd,Brighton,0.282
+484,Max,Lowe,Sheffield Utd,Brighton,0.364
+485,Oliver,McBurnie,Sheffield Utd,Brighton,1.484
+486,Iliman,Ndiaye,Sheffield Utd,Brighton,0.282
+487,Rhys,Norrington-Davies,Sheffield Utd,Brighton,0.364
+488,Oliver,Norwood,Sheffield Utd,Brighton,1.379
+489,Ben,Osborn,Sheffield Utd,Brighton,0.699
+490,William,Osula,Sheffield Utd,Brighton,0.282
+491,Brandon,Austin,Spurs,Wolves,0.445
+492,Rodrigo,Bentancur,Spurs,Wolves,0.617
+493,Yves,Bissouma,Spurs,Wolves,1.553
+494,Bryan,Gil Salvatierra,Spurs,Wolves,0.551
+495,Ben,Davies,Spurs,Wolves,1.044
+496,Eric,Dier,Spurs,Wolves,1.285
+497,Emerson,Leite de Souza Junior,Spurs,Wolves,1.086
+498,Fraser,Forster,Spurs,Wolves,0.445
+499,Pierre-Emile,Højbjerg,Spurs,Wolves,1.103
+500,Harry,Kane,Spurs,Wolves,0.488
+501,Dejan,Kulusevski,Spurs,Wolves,1.982
+502,Hugo,Lloris,Spurs,Wolves,0.445
+503,Giovani,Lo Celso,Spurs,Wolves,0.627
+504,James,Maddison,Spurs,Wolves,2.367
+505,Tanguy,Ndombélé Alvaro,Spurs,Wolves,0.603
+506,Pedro,Porro,Spurs,Wolves,1.571
+507,Ivan,Perišić,Spurs,Wolves,1.285
+508,Sergio,Reguilón,Man Utd,Luton,1.389
+509,Richarlison,de Andrade,Spurs,Wolves,2.175
+510,Joe,Rodon,Spurs,Wolves,1.285
+511,Cristian,Romero,Spurs,Wolves,1.426
+512,Davinson,Sánchez,Spurs,Wolves,1.285
+513,Pape Matar,Sarr,Spurs,Wolves,1.37
+514,Ryan,Sessegnon,Spurs,Wolves,1.285
+515,Oliver,Skipp,Spurs,Wolves,0.9
+516,Son,Heung-min,Spurs,Wolves,2.369
+517,Djed,Spence,Spurs,Wolves,1.285
+518,Japhet,Tanganga,Spurs,Wolves,1.285
+519,Destiny,Udogie,Spurs,Wolves,1.356
+520,Guglielmo,Vicario,Spurs,Wolves,2.492
+521,Alfie,Whiteman,Spurs,Wolves,0.445
+522,Nayef,Aguerd,West Ham,Nott'm Forest,1.58
+523,Michail,Antonio,West Ham,Nott'm Forest,1.976
+524,Alphonse,Areola,West Ham,Nott'm Forest,2.33
+525,Saïd,Benrahma,West Ham,Nott'm Forest,1.455
+526,Jarrod,Bowen,West Ham,Nott'm Forest,2.82
+527,Maxwel,Cornet,West Ham,Nott'm Forest,0.635
+528,Vladimír,Coufal,West Ham,Nott'm Forest,1.767
+529,Conor,Coventry,West Ham,Nott'm Forest,0.635
+530,Aaron,Cresswell,West Ham,Nott'm Forest,0.915
+531,Flynn,Downes,West Ham,Nott'm Forest,0.635
+532,Emerson,Palmieri dos Santos,West Ham,Nott'm Forest,1.58
+533,Lukasz,Fabianski,West Ham,Nott'm Forest,0.506
+534,Pablo,Fornals Malla,West Ham,Nott'm Forest,0.872
+535,Danny,Ings,West Ham,Nott'm Forest,0.848
+536,Ben,Johnson,West Ham,Nott'm Forest,1.441
+537,Thilo,Kehrer,West Ham,Nott'm Forest,1.441
+538,Divin,Mubama,West Ham,Nott'm Forest,0.579
+539,Lucas,Tolentino Coelho de Lima,West Ham,Nott'm Forest,2.001
+540,Declan,Rice,Arsenal,Burnley,2.323
+541,Gianluca,Scamacca,West Ham,Nott'm Forest,0.579
+542,Tomáš,Souček,West Ham,Nott'm Forest,1.999
+543,Nikola,Vlašić,West Ham,Nott'm Forest,0.635
+544,Kurt,Zouma,West Ham,Nott'm Forest,2.23
+545,Rayan,Aït-Nouri,Wolves,Spurs,1.616
+546,Daniel,Bentley,Wolves,Spurs,0.326
+547,Bendegúz,Bolla,Wolves,Spurs,0.536
+548,Hugo,Bueno López,Wolves,Spurs,0.536
+549,Francisco Jorge,Tomás Oliveira,Wolves,Spurs,0.405
+550,Luke,Cundle,Wolves,Spurs,0.405
+551,Craig,Dawson,Wolves,Spurs,1.247
+552,Fábio,Silva,Wolves,Spurs,0.874
+553,Ryan,Giles,Luton,Man Utd,0.367
+554,Gonçalo Manuel,Ganchinho Guedes,Wolves,Spurs,0.405
+555,Joe,Hodge,Wolves,Spurs,0.405
+556,Ki-Jana,Hoever,Wolves,Spurs,0.536
+557,Hwang,Hee-chan,Wolves,Spurs,2.731
+558,Raúl,Jiménez,Fulham,Aston Villa,1.048
+559,João Victor,Gomes da Silva,Wolves,Spurs,0.685
+560,Jonathan,Castro Otto,Wolves,Spurs,0.449
+561,Bruno,Cavaco Jordão,Wolves,Spurs,0.405
+562,Sasa,Kalajdzic,Wolves,Spurs,0.628
+563,Max,Kilman,Wolves,Spurs,1.452
+564,Tom,King,Wolves,Spurs,0.326
+565,Mario,Lemina,Wolves,Spurs,1.24
+566,Matheus Luiz,Nunes,Man City,Chelsea,0.718
+567,Pedro,Lomba Neto,Wolves,Spurs,1.222
+568,Daniel,Castelo Podence,Wolves,Spurs,0.405
+569,José,Malheiro de Sá,Wolves,Spurs,1.554
+570,Pablo,Sarabia,Wolves,Spurs,0.434
+571,Matija,Šarkić,Wolves,Spurs,0.326
+572,Nélson,Cabral Semedo,Wolves,Spurs,1.455
+573,Toti António,Gomes,Wolves,Spurs,1.246
+574,Boubacar,Traoré,Wolves,Spurs,0.791
+575,Tom,Lockyer,Luton,Man Utd,0.938
+576,Jack,Robinson,Sheffield Utd,Brighton,1.025
+577,Angelo,Ogbonna,West Ham,Nott'm Forest,1.441
+578,Reiss,Nelson,Arsenal,Burnley,1.154
+579,Andy,Lonergan,Everton,Crystal Palace,0.445
+580,Loris,Karius,Newcastle,Bournemouth,0.445
+581,Paul,Dummett,Newcastle,Bournemouth,1.285
+582,Pelly Ruddock,Mpanzu,Luton,Man Utd,1.291
+583,Manor,Solomon,Spurs,Wolves,0.77
+584,Pau,Torres,Aston Villa,Fulham,2.074
+585,Jurriën,Timber,Arsenal,Burnley,1.441
+586,Tahith,Chong,Luton,Man Utd,0.9
+587,Anis,Slimane,Sheffield Utd,Brighton,0.764
+588,Ashley,Young,Everton,Crystal Palace,1.316
+589,Ângelo Gabriel,Borges Damaceno,Chelsea,Man City,0.335
+590,Matheus,Santos Carneiro Da Cunha,Wolves,Spurs,1.45
+591,Willian,Borges da Silva,Fulham,Aston Villa,1.667
+592,Yasser,Larouci,Sheffield Utd,Brighton,0.685
+593,Bénie,Traoré,Sheffield Utd,Brighton,0.324
+594,Zeki,Amdouni,Burnley,Arsenal,1.691
+595,Milos,Kerkez,Bournemouth,Newcastle,0.881
+596,James,Trafford,Burnley,Arsenal,1.702
+597,André,Onana,Man Utd,Luton,2.229
+598,Matt,Doherty,Wolves,Spurs,0.748
+599,Moussa,Diaby,Aston Villa,Fulham,2.243
+600,Nathan,Redmond,Burnley,Arsenal,0.706
+601,Arnaut,Danjuma Groeneveld,Everton,Crystal Palace,1.112
+602,Issa,Kaboré,Luton,Man Utd,0.845
+603,Harvey,Barnes,Newcastle,Bournemouth,0.603
+604,Olu,Aina,Nott'm Forest,West Ham,0.718
+605,Luca,Koleosho,Burnley,Arsenal,1.928
+606,Igor Julio,dos Santos de Paulo,Brighton,Sheffield Utd,0.946
+607,Ionuț,Radu,Bournemouth,Newcastle,0.57
+608,Jacob,Bruun Larsen,Burnley,Arsenal,1.021
+609,Ian,Maatsen,Chelsea,Man City,0.715
+610,Calvin,Bassey,Fulham,Aston Villa,1.162
+611,Axel,Disasi,Chelsea,Man City,1.162
+613,Lesley,Ugochukwu,Chelsea,Man City,0.805
+614,Thomas,Kaminski,Luton,Man Utd,1.226
+615,Matheus,França de Oliveira,Crystal Palace,Everton,0.88
+616,Joško,Gvardiol,Man City,Chelsea,1.24
+617,Rasmus,Højlund,Man Utd,Luton,1.97
+618,Omari,Kellyman,Aston Villa,Fulham,0.635
+619,Ben,Greenwood,Bournemouth,Newcastle,0.493
+620,Michael,Olakigbe,Brentford,Liverpool,0.632
+621,Jack,Hinshelwood,Brighton,Sheffield Utd,1.072
+622,Owen,Dodgson,Burnley,Arsenal,0.427
+623,Mason,Burstow,Chelsea,Man City,0.278
+624,Lewis,Dobbin,Everton,Crystal Palace,0.603
+625,Luc,De Fougerolles,Fulham,Aston Villa,0.364
+626,Jarell,Quansah,Liverpool,Brentford,0.536
+627,Bobby,Clark,Liverpool,Brentford,0.405
+628,Ben,Doak,Liverpool,Brentford,0.405
+629,James,McConnell,Liverpool,Brentford,0.405
+630,Ross,Barkley,Luton,Man Utd,0.82
+631,Jacob,Brown,Luton,Man Utd,1.52
+632,Omari,Forson,Man Utd,Luton,0.635
+633,Tino,Livramento,Newcastle,Bournemouth,1.107
+634,Alex,Murphy,Newcastle,Bournemouth,1.285
+635,Lewis,Miley,Newcastle,Bournemouth,0.603
+636,George,Shelvey,Nott'm Forest,West Ham,0.263
+637,Josh,Powell,Nott'm Forest,West Ham,0.364
+638,Vini,de Souza Costa,Sheffield Utd,Brighton,1.185
+639,Micky,van de Ven,Spurs,Wolves,2.335
+640,Dane,Scarlett,Spurs,Wolves,0.488
+641,Alejo,Véliz,Spurs,Wolves,0.658
+642,Edson,Álvarez Velázquez,West Ham,Nott'm Forest,1.663
+643,Max,Aarons,Bournemouth,Newcastle,1.294
+644,Alex,Scott,Bournemouth,Newcastle,0.658
+645,Youssef,Ramalho Chermiti,Everton,Crystal Palace,0.673
+646,Karl,Hein,Arsenal,Burnley,0.506
+647,Joseph,Anang,West Ham,Nott'm Forest,0.506
+648,Aidan,Francis-Clarke,Luton,Man Utd,0.427
+649,Thomas,Cannon,Everton,Crystal Palace,0.488
+650,Tyler,Onyango,Everton,Crystal Palace,0.603
+651,Jay,Stansfield,Fulham,Aston Villa,0.282
+652,Matthew,Dibley-Dias,Fulham,Aston Villa,0.372
+653,Femi,Seriki,Sheffield Utd,Brighton,0.364
+654,Louie,Marsh,Sheffield Utd,Brighton,0.282
+655,Andre,Brooks,Sheffield Utd,Brighton,0.372
+656,Antwoine,Hackford,Sheffield Utd,Brighton,0.282
+657,Jesurun,Rak-Sakyi,Crystal Palace,Everton,1.178
+658,John-Kymani,Gordon,Crystal Palace,Everton,0.579
+659,Lucas,Bergström,Chelsea,Man City,0.283
+660,Wilson,Odobert,Burnley,Arsenal,1.102
+661,Jack,Harrison,Everton,Crystal Palace,1.852
+662,Adama,Traoré,Fulham,Aston Villa,0.372
+663,Gustavo,Hamer,Sheffield Utd,Brighton,1.55
+664,James,Ward-Prowse,West Ham,Nott'm Forest,2.042
+665,Tim,Krul,Luton,Man Utd,0.31
+666,Tom,Davies,Sheffield Utd,Brighton,0.837
+667,Roméo,Lavia,Chelsea,Man City,0.335
+668,Wataru,Endo,Liverpool,Brentford,0.664
+669,Radek,Vítek,Man Utd,Luton,0.506
+670,Filip,Marschall,Aston Villa,Fulham,0.506
+671,Bashir,Humphreys,Chelsea,Man City,0.441
+672,Nicolò,Zaniolo,Aston Villa,Fulham,1.573
+673,Tyler,Adams,Bournemouth,Newcastle,0.364
+674,Hannes,Delcroix,Burnley,Arsenal,0.54
+675,Aaron,Ramsey,Burnley,Arsenal,0.737
+676,Konstantinos,Mavropanos,West Ham,Nott'm Forest,1.063
+677,Deivid Washington,de Souza Eugênio,Chelsea,Man City,1.024
+678,Jérémy,Doku,Man City,Chelsea,1.716
+679,Gonzalo,Montiel,Nott'm Forest,West Ham,0.683
+680,Eddie,Beach,Chelsea,Man City,0.283
+681,Diego Manuel Jadon,da Silva Moreira,Chelsea,Man City,0.335
+682,Joseph,Johnson,Luton,Man Utd,0.427
+683,Luke,Harris,Fulham,Aston Villa,0.372
+684,Ethan,Brierley,Brentford,Liverpool,0.389
+685,Daniel,Gore,Man Utd,Luton,0.635
+686,Oliwier,Zych,Aston Villa,Fulham,0.506
+687,Djordje,Petrovic,Chelsea,Man City,0.283
+688,Timothy,Castagne,Fulham,Aston Villa,1.254
+689,Mohammed,Kudus,West Ham,Nott'm Forest,1.146
+690,Carlos,Baleba,Brighton,Sheffield Utd,1.497
+691,Norberto Bercique,Gomes Betuncal,Everton,Crystal Palace,1.136
+692,Steven,Benda,Fulham,Aston Villa,0.263
+693,Luke,Thomas,Sheffield Utd,Brighton,0.956
+694,Han-Noah,Massengo,Burnley,Arsenal,0.389
+695,Altay,Bayindir,Man Utd,Luton,0.506
+696,Murillo,Santiago Costa dos Santos,Nott'm Forest,West Ham,1.136
+697,Santiago,Bueno,Wolves,Spurs,0.536
+698,Enso,González,Wolves,Spurs,0.405
+699,Clément,Lenglet,Aston Villa,Fulham,1.441
+700,Anssumane,Fati Vieira,Brighton,Sheffield Utd,2.292
+701,Saman,Ghoddos,Brentford,Liverpool,1.208
+702,Ashley,Phillips,Spurs,Wolves,1.285
+703,Jonny,Evans,Man Utd,Luton,1.216
+704,Nathan,Fraser,Wolves,Spurs,0.34
+705,Luis,Sinisterra,Bournemouth,Newcastle,0.902
+706,Mike,Trésor,Burnley,Arsenal,1.056
+707,Fodé,Ballo-Touré,Fulham,Aston Villa,0.364
+708,Ryan,Gravenberch,Liverpool,Brentford,1.246
+709,Sofyan,Amrabat,Man Utd,Luton,1.282
+710,Odysseas,Vlachodimos,Nott'm Forest,West Ham,0.263
+711,Andrew,Omobamidele,Nott'm Forest,West Ham,0.364
+712,Nicolás,Domínguez,Nott'm Forest,West Ham,1.112
+713,Ibrahim,Sangaré,Nott'm Forest,West Ham,1.51
+714,Divock,Origi,Nott'm Forest,West Ham,0.681
+715,Jean-Ricner,Bellegarde,Wolves,Spurs,0.482
+716,Alfie,Gilchrist,Chelsea,Man City,0.441
+717,Ronnie,Stutter,Chelsea,Man City,0.278
+718,Alex,Matos,Chelsea,Man City,0.326
+719,Mackenzie,Hunt,Everton,Crystal Palace,0.603
+720,Ademola,Ola-Adebomi,Crystal Palace,Everton,0.579
+721,David,Ozoh,Crystal Palace,Everton,0.622
+722,Jamie,Donley,Spurs,Wolves,0.488
+723,Josh,Brooking,Chelsea,Man City,0.441
+724,Jadan,Raymond,Crystal Palace,Everton,0.635
+725,Ji-Soo,Kim,Brentford,Liverpool,0.427
+726,Luke,Chambers,Liverpool,Brentford,0.536
+727,Andros,Townsend,Luton,Man Utd,0.98
+728,Callum,Scanlon,Liverpool,Brentford,0.536
+729,Jayden,Luker,Luton,Man Utd,0.389
+730,Ryan,Oné,Sheffield Utd,Brighton,0.806
+731,Jili,Buyabu,Sheffield Utd,Brighton,0.364
+732,Devan,Tanton,Fulham,Aston Villa,0.364
+733,Valintino,Adedokun,Brentford,Liverpool,0.427
