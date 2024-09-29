@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+    <h1>Prediction Input Form</h1>
+    <form action="/predict" method="post">
+
+        <label for="player">Player name:</label>
+        <input list="players" name="player" required>
+        <datalist id="players">
+            <option value="">Select player</option>
+            {% for player in players %}
+                <option value="{{ player }}">{{ player }}</option>
+            {% endfor %}
+        </datalist><br>
+
+        <input type="submit" value="Predict">
+    </form>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
